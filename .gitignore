@@ -1,0 +1,88 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnp.*
+.cache/
+
+# Next.js
+.next/
+out/
+.build/
+.vercel/
+.vercel_cache/
+.next/cache/
+
+# Production
+dist/
+build/
+
+# Env files
+.env.local
+.env.*.local
+.env
+!.env.example
+
+# Logs
+logs
+*.log
+logs/**
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+*.key
+*.cert
+*.env.*.backup
+
+# pnpm store
+.pnpm-store/
+
+# Storybook
+.storybook/
+
+# Optional npm cache directory
+.npm/
+
+# Mac specific
+.AppleDouble
+
+# Windows specific
+ehthumbs.db
+
+# JetBrains
+*.iml
+
+# Build outputs from various tools
+dist-*/
+
+# Ignore local chrome profiles
+chrome-profile/
+
+# Ignore .env files created by some CI tools
+.env.*
+
+# Keep npm/yarn lockfiles tracked; pnpm lockfile should remain checked in
+# (pnpm-lock.yaml is intentionally NOT ignored)

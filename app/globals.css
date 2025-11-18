@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+@theme inline {
+  /* Optimized system font stack with font-display swap for fast loading */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Menlo', 'Monaco', 'Courier New', monospace;
+}
+
+:root {
+  --background: 255, 255, 255;
+  --foreground: 0, 0, 0;
+  --accent: 255, 127, 10;
+  --muted: 155, 155, 155;
+  --border: 229, 229, 234;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black font-sans;
+  }
+
+  * {
+    @apply border-[#E5E5EA];
+  }
+}
+
+@layer utilities {
+  .apple-shadow {
+    @apply shadow-[0_2px_10px_rgba(0,0,0,0.1)];
+  }
+
+  .apple-shadow-lg {
+    @apply shadow-[0_8px_30px_rgba(0,0,0,0.12)];
+  }
+
+  .smooth-fade {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  /* Add section divider animation */
+  .section-divider {
+    animation: expandWidth 0.8s ease-out;
+  }
+
+  /* Add title underline with animation */
+  .title-underline {
+    position: relative;
+    display: inline-block;
+  }
+
+  .title-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF7F0A, #FF6B00);
+    border-radius: 2px;
+    animation: slideIn 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes expandWidth {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
