@@ -1,0 +1,10 @@
+# Ads.txt file for advertising transparency
+# Reference: https://iabtechlab.com/ads-txt/
+
+# Add your ad network declarations here
+# Format: <domain>, <publisher-id>, <account-type>, <certification-authority-id>
+
+# Example for Google Ad Manager:
+# google.com, pub-xxxxxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
+
+# Example for other networks - add your entries as needed

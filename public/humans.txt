@@ -1,0 +1,20 @@
+/* HUMANS.TXT */
+/* humanstxt.org */
+
+/* TEAM */
+  Author: Your Name
+  Contact: your.email@example.com
+  Website: https://yourdomainname.com
+  GitHub: https://github.com/yourusername
+  LinkedIn: https://linkedin.com/in/yourprofile
+
+/* SITE */
+  Last Updated: 2025-11-18
+  Language: English
+  Doctype: HTML5
+  IDE: VS Code
+  CMS: Next.js
+  Built with: React, TypeScript, Tailwind CSS
+
+/* THANKS */
+  Thanks to the open-source community for amazing tools and libraries!

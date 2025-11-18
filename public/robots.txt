@@ -1,0 +1,39 @@
+# Robots.txt for portfolio website
+# Allows search engines to crawl and index your site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json
+Disallow: /admin/
+Disallow: /*?
+Disallow: /*&
+Disallow: /?*
+
+# Specific rules for common search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Slow down aggressive crawlers
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+Disallow: /
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://yourdomainname.com/sitemap.xml
+Sitemap: https://yourdomainname.com/sitemap-index.xml

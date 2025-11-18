@@ -1,0 +1,7 @@
+# App Ads.txt file for app advertising transparency
+# Reference: https://iabtechlab.com/app-ads-txt/
+
+# Add your mobile app ad network declarations here
+# Format: <domain>, <publisher-id>, <account-type>, <certification-authority-id>, <tag-id>
+
+# Example entries - customize with your actual values
