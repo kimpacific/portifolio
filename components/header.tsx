@@ -12,7 +12,7 @@ export function Header() {
           transition={{ duration: 0.6 }}
           className="flex items-center gap-2"
         >
-          <div className="w-6 h-6 rounded-full bg-black"></div>
+          <div className="w-6 h-6 rounded-full bg-orange-500"></div>
           <span className="text-sm font-medium text-[#9B9B9B]">hey@kimanapacifique.com</span>
         </motion.div>
         <motion.button
